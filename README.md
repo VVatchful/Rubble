@@ -9,6 +9,7 @@ A system that aims for efficiency and aims to benefit warehouse and inventory wo
    - Anyone can approve or ignore a move, but the goal is to keep inventory and items grouped together, so it is in the best interest to follow the planner.
 3. If this ran at your old warehouse, what's the first objection a coworker would raise?
    - Too much time to implement in an actual warehouse? Most warehouses are massive understably. However, this is a tool that aims to have an effect over time and to achieve optimal SKU and bin choices to improve workflow efficiency by consolidating movements.
+
 **Costs & benefits**
 
 4. Moving from one bin to another can take lots of time and is often one of the last things being taken care of inside the warehouse. Having a target of pulling 90 tires an hour shouldn't be hard; it should be as easy as possible! Having to move across the warehouse to multiple bins for the same tire is unnecessary, and that is what this problem aims to solve. Turning a 10-15 min to 5 min.
