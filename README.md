@@ -42,14 +42,5 @@ A system that aims for efficiency and aims to benefit warehouse and inventory wo
     - Fragmentation is one of our most important metrics. It demonstrates what our current warehouse looks like and compares it to what it could look like. Efficiency is the goal, and having a metric to indicate whether fragmentation is occurring is either a good or bad sign and needs to be handled.
       - In order for fragmentation to be a good indicator, we need to establish guardrails that are mandatory to follow. Due to warehouse fragmentation being inevitable, if an aisle is 100% full, there will be some fragmentation, and it has to be determined whether it is better to adjust and move to overflow or move something out before moving something in.
    
-### 0.2 Design exercise — the napkin ROI
- 
-On one page, estimate: if your old warehouse ran this weekly, how many labor-hours of consolidation would it cost, and how many picker-hours would it save? Use your own floor numbers. Even rough math here is interview gold — almost no candidate does it.
- 
-### 0.3 Pitfalls
-- Skipping this phase. Everything downstream (cost model, stopping rules, evaluation) depends on answers here.
-- Picking "fragmentation" as the north star without tying it to time/money. Fragmentation is a proxy; travel time is the real cost.
-### 0.4 Deliverables
-- `notes/00-framing.md`: all answers, one-liner, metric choices, napkin ROI, cut list.
-### 0.5 Done when
-You can give a 60-second pitch AND answer "why is this hard?" without mentioning code.
+**Old Warehouse**
+   - Coming from experience, we do not get the best tools. But the ones that allow us to do the job effectively. Older warehouses might not have the same space, size, capacity as newer warehouses, meanning that keeping it organized and consolidated matters a whole lot more. Especially if its a matter of extra stops for a route that day or inventory being messed up because capacity issue. These delays cost the company time, and the employee's time. This Project aims to rectify that gap.
